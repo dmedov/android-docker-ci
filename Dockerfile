@@ -42,7 +42,7 @@ RUN echo "no" | android create avd \
                 --target android-24 \
                 --abi armeabi-v7a \
                 --skin WVGA800 \
-                --sdcard 512M
+                --sdcard 128M
 
 # Cleaning
 RUN apt-get clean
