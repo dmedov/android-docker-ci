@@ -35,7 +35,7 @@ RUN which adb
 RUN which android
 
 # Create emulator
-RUN echo "no" | android create avd --force --name test --skin 540x960 --target android-24 --abi "google_apis/armeabi-v7a" --sdcard 100M
+RUN echo "no" | android create avd --force --name test --skin WXGA720 --target android-24 --abi "google_apis/armeabi-v7a" --sdcard 100M
                 
 # Cleaning
 RUN apt-get clean
