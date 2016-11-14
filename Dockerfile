@@ -41,7 +41,7 @@ RUN echo "no" | android create avd \
                 --name test \
                 --target android-24 \
                 --abi armeabi-v7a \
-                --skin WXGA \
+                --skin WXGA800 \
                 --sdcard 128M
 
 # Cleaning
