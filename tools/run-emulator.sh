@@ -1,9 +1,9 @@
 #!/bin/bash
 
-set +e
+set +e +x
 
 echo "starting emulator..."
-emulator64-x86 -avd test -no-window &
+echo "no" | emulator64-arm -avd test -no-audio -no-window &
 
 echo "waiting boot of emulator..."
 android-wait-for-emulator.sh
