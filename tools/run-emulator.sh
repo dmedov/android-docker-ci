@@ -3,7 +3,7 @@
 set +e +x
 
 echo "starting emulator..."
-echo "no" | emulator64-arm -avd test -no-audio -no-window &
+echo "no" | emulator -avd test -no-audio -no-window &
 
 echo "waiting boot of emulator..."
 android-wait-for-emulator.sh
