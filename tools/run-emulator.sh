@@ -3,6 +3,7 @@
 set +e +x
 
 echo "starting emulator..."
+export SHELL=/bin/bash
 echo "no" | emulator -avd test -no-audio -no-window &
 
 echo "waiting boot of emulator..."
