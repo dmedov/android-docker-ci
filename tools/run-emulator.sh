@@ -14,7 +14,3 @@ adb shell settings put global transition_animation_scale 0
 adb shell settings put global animator_duration_scale 0
 
 adb install /opt/tools/test-butler-app-1.1.0.apk
-
-adb logcat & 
-
-
